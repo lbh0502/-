@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/kh/kh",
+    "pages/index/index",
+    "pages/logs/logs",
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#21212e",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

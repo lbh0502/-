@@ -1,0 +1,100 @@
+<view class="li">
+  <view class="index">
+    <!-- 搜索框 -->
+    <view class="serch">
+      <input type="text" placeholder="搜索....">
+      </input>
+      <image src="../../img/1.png"></image>
+    </view>
+    <!-- 分类排行 -->
+    <view class="classification-ranking public">
+      <view class="one">
+        <view class="flph">分类排行</view>
+        <navigator class="ck">查看全部></navigator>
+      </view>
+      <view class="public-one">
+        <scroll-view class="scroll-view_H" scroll-x="true">
+          <view class="demo" wx:for='{{ xxx }}' wx:key="{{ index }}">
+            <image class="b" src="{{ item.touxiang }}"></image>
+            <view class="fs">{{ item.type }}</view>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+    <!-- 作者排行 -->
+    <view class="author-ranking public">
+      <view class="one">
+        <view class="flph">作者排行</view>
+        <navigator class="ck">查看全部></navigator>
+      </view>
+      <view class="public-one">
+        <scroll-view class="scroll-view_H" scroll-x="true">
+          <view class="demo" wx:for='{{ lll }}' wx:key="{{ index }}">
+            <image class="b" src="{{ item.touxiang }}"></image>
+            <view class="fs">{{ item.name }}</view>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+    <!-- 新发布 -->
+    <view class="new-release public">
+      <view class="one">
+        <view class="flph">新发布</view>
+        <navigator class="ck">查看全部></navigator>
+      </view>
+      <view class="public-one">
+        <scroll-view class="scroll-view_H" scroll-x="true">
+          <view class="demo" wx:for='{{ hhh }}' wx:key="{{ index }}" wx:if="{{ index<3 }}">
+            <navigator url="/pages/logs/logs">
+              <image class="size" src="{{ item.touxiang }}"></image>
+            </navigator>
+            <view class="fs">{{ item.name }}</view>
+          </view>
+        </scroll-view>
+      </view>
+      <view class="public-one lbh">
+        <scroll-view class="scroll-view_H" scroll-x="true">
+          <view class="demo" wx:for='{{ hhh }}' wx:key="{{ index }}" wx:if="{{ index<3 }}">
+            <navigator url="/pages/logs/logs">
+              <image class="size" src="{{ item.touxiang }}"></image>
+            </navigator>
+            <view class="fs">{{ item.b }}</view>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+    <!-- 热门搜索 -->
+    <view class="hot-serch public">
+      <view class="hot-serch-one">热门搜索</view>
+      <view class="hot-serch-two">
+        <view class="rmphb">2018热门排行榜</view>
+        <view class="zcrm hst">职场热门</view>
+        <view class="dsyq hst">都市言情</view>
+        <view class="hfdx hst-one">哈佛大学经济管理类</view>
+        <view class="ldcn hst-one hst">领导才能</view>
+      </view>
+    </view>
+    <!-- 热销榜 -->
+    <view class="hot-list">
+      <view class="one">
+        <view class="flph">热销榜</view>
+        <navigator class="ck">查看全部></navigator>
+      </view>
+      <scroll-view class="hst-one">
+        <view class="writhers">
+          <view class="im">
+            <image src="https://wujunhui.xyz/book-santi.png"></image>
+          </view>
+          <view class="ho-content">
+            <view class="ho-block">
+              <text class="h-one">三体：死神永生</text>
+              <text class="h-two">...</text>
+            </view>
+            <view class="ho-writhers">作者：刘慈心</view>
+            <view class="ho-writhers-content">刘慈心创作的系列长篇科幻小说地球往事三部曲的第三部作品哈哈哈</view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>
