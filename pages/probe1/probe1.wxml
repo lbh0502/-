@@ -1,0 +1,24 @@
+<!--pages/probe1/probe1.wxml-->
+<view class="probe1">
+  <view class="p1-block-one">
+    <view class="p1-book">
+    <image src="https://wujunhui.xyz/book-santi.png"></image>
+      <view class="pb">三体：死神永生</view>
+    </view>
+    <view class="p1-book ll">
+    <image src="https://wujunhui.xyz/book-xcjs.png"></image>
+      <view class="pb">百年孤独</view>
+    </view>
+    <view class="p1-book">
+    <image src="../../img/046.png"></image>
+      <view class="pb">平凡的世界</view>
+    </view>
+    <view class="p1-book ll">
+    <image src="https://wujunhui.xyz/book-wljs.png"></image>
+      <view class="pb">未来简史</view>
+    </view>
+  </view>
+    <view class="logo public">
+    <image src="../../img/045.png"></image>
+  </view>
+</view>

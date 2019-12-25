@@ -206,11 +206,3 @@
   margin-top: 10rpx;
   margin-right: 20rpx;
 }
-.footer{
-  display: flex;
-  flex-direction: row;
-}
-.footer image{
-  width: 70rpx;
-  height: 70rpx;
-}

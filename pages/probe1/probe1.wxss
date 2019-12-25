@@ -1,0 +1,46 @@
+/* pages/probe1/probe1.wxss */
+
+.probe1 {
+  background: #21272e;
+}
+
+.p1-block-one {
+  margin: 0 40rpx;
+}
+
+.p1-book {
+  width: 315rpx;
+  height: 550rpx;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50rpx;
+  margin-top: 60rpx;
+}
+
+.p1-book image {
+  width: 315rpx;
+  height: 500rpx;
+}
+
+.ll {
+  margin-left: 40rpx;
+}
+
+.pb {
+  color: #fff;
+  text-align: center;
+}
+.logo {
+  width: 120rpx;
+  height: 80rpx;
+  margin: 0 auto;
+}
+
+.logo image {
+  width: 120rpx;
+  height: 80rpx;
+}
+.public {
+  margin-top: 30rpx;
+}
+

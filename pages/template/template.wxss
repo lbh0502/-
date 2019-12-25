@@ -1,0 +1,19 @@
+/* pages/template/template.wxss */
+.ewm{
+  width: 200rpx;
+  height: 180rpx;
+  position: fixed;
+  bottom: -1rpx;
+  right: -1rpx;
+  z-index: 1;
+}
+.ewm-block{
+height: 40rpx;
+background: #fff;
+font-size: 25rpx;
+text-align: center;
+}
+.ewm image{
+  width: 200rpx;
+  height: 140rpx;
+}

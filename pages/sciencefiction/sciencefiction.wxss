@@ -1,0 +1,71 @@
+/* pages/sciencefiction/sciencefiction.wxss */
+@import "/pages/template/template";
+.sciencefiction {
+  background: #21212e;
+}
+
+.one {
+  display: flex;
+  flex-direction: row;
+}
+
+.writhers {
+  height: 250rpx;
+  background: #2b323b;
+  border-radius: 30rpx;
+  display: flex;
+  flex-direction: row;
+  margin: 50rpx 30rpx;
+}
+
+.im {
+  width: 200rpx;
+  height: 250rpx;
+  position: relative;
+  top: -30rpx;
+  left: 30rpx;
+  border-radius: 30rpx;
+}
+
+.im image {
+  width: 200rpx;
+  height: 250rpx;
+}
+
+.hoc {
+  height: 250rpx;
+  margin-left: 60rpx;
+  color: #84878f;
+}
+
+.hb {
+  font-size: 35rpx;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20rpx;
+}
+
+.ht {
+  font-size: 35rpx;
+  float: right;
+  margin-right: 20rpx;
+}
+
+.hw {
+  width: 380rpx;
+  font-size: 25rpx;
+  height: 60rpx;
+  border-bottom: 1px solid #84878f;
+  line-height: 50rpx;
+}
+
+.hwc {
+  font-size: 30rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-indent: 2px;
+  margin-top: 10rpx;
+  margin-right: 20rpx;
+}

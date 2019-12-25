@@ -1,4 +1,4 @@
-// pages/kh/kh.js
+// pages/sciencefiction/sciencefiction.js
 Page({
 
   /**

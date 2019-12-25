@@ -78,7 +78,7 @@
     <view class="hot-list">
       <view class="one">
         <view class="flph">热销榜</view>
-        <navigator class="ck">查看全部></navigator>
+        <navigator url="/pages/sciencefiction/sciencefiction" class="ck">查看全部></navigator>
       </view>
       <scroll-view class="hst-one">
         <view class="writhers">

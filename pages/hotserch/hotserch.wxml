@@ -1,0 +1,24 @@
+<!--pages/hotserch/hotserch.wxml-->
+<!-- 搜索 -->
+<view class="block">
+  <view class="hotserch">
+    <view class="serch">
+      <input type="text" placeholder="搜索....">
+      </input>
+      <image src="../../img/1.png"></image>
+      <view class="cancel">取消</view>
+    </view>
+    <!-- 热门搜索 -->
+    <view class="hot-serch">
+      <view class="hh public">
+        <view class="hs-im">热门搜索</view>
+        <navigator url="">查看全部></navigator>
+      </view>
+      <view class="ho-im public">
+        <image src="https://wujunhui.xyz/book-santi.png"></image>
+        <image src="https://wujunhui.xyz/book-rljs.png"></image>
+        <image src="https://wujunhui.xyz/book-xsgmxj.png"></image>
+      </view>
+    </view>
+  </view>
+</view>

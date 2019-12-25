@@ -1,0 +1,74 @@
+<!-- 科幻 -->
+<import src="/pages/template/template" />
+<template is="header" />
+<view class="sciencefiction" scroll-y>
+  <scroll-view class="one">
+    <navigator url="/pages/probe/probe">
+      <view class="writhers">
+        <view class="im">
+          <image src="https://wujunhui.xyz/book-santi.png"></image>
+        </view>
+        <view class="hoc">
+          <view class="hb">
+            <text class="ho">三体：死神永生</text>
+            <text class="ht">...</text>
+          </view>
+          <view class="hw">作者：刘慈心</view>
+          <view class="hwc">刘慈心创作的系列长篇科幻小说地球往事三部曲的第三部作品哈哈哈</view>
+        </view>
+      </view>
+    </navigator>
+    <view class="writhers">
+      <view class="im">
+        <image src="https://wujunhui.xyz/book-wljs.png"></image>
+      </view>
+      <view class="hoc">
+        <view class="hb">
+          <text class="ho">未来简史</text>
+          <text class="ht">...</text>
+        </view>
+        <view class="hw">作者：尤瓦尔·郝拉丽</view>
+        <view class="hwc">讲述了一段有关未来50年令人难以置信的故事。他剖析了各国啊哈哈哈哈哈哈哈</view>
+      </view>
+    </view>
+    <view class="writhers">
+      <view class="im">
+        <image src="https://wujunhui.xyz/book-santi.png"></image>
+      </view>
+      <view class="hoc">
+        <view class="hb">
+          <text class="ho">银河帝国</text>
+          <text class="ht">...</text>
+        </view>
+        <view class="hw">作者：艾萨克·阿西莫夫</view>
+        <view class="hwc">在机器人的帮助下，人类迅速掌握了改造外星球的技术，开启了恢复哈哈哈哈哈哈哈哈</view>
+      </view>
+    </view>
+    <view class="writhers">
+      <view class="im">
+        <image src="https://wujunhui.xyz/book-santi.png"></image>
+      </view>
+      <view class="hoc">
+        <view class="hb">
+          <text class="ho">海底两万里</text>
+          <text class="ht">...</text>
+        </view>
+        <view class="hw">作者：儒勒·凡尔纳</view>
+        <view class="hwc">讲述了博物馆学家阿龙纳斯，其仆人康赛尔和鱼叉手尼德·兰一起随鹦鹉哈哈哈哈哈</view>
+      </view>
+    </view>
+    <view class="writhers">
+      <view class="im">
+        <image src="https://wujunhui.xyz/book-santi.png"></image>
+      </view>
+      <view class="hoc">
+        <view class="hb">
+          <text class="ho">三体：死神永生</text>
+          <text class="ht">...</text>
+        </view>
+        <view class="hw">作者：刘慈心</view>
+        <view class="hwc">刘慈心创作的系列长篇科幻小说地球往事三部曲的第三部作品哈哈哈</view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

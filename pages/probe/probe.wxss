@@ -1,0 +1,108 @@
+@import "/pages/template/template";
+.probe {
+  background: #21272e;
+}
+
+.probe-im {
+  width: 350rpx;
+  height: 500rpx;
+  margin: 0 auto;
+  border-radius: 30rpx;
+}
+
+.probe-im image {
+  width: 350rpx;
+  height: 500rpx;
+}
+
+.center {
+  width: 350rpx;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 40rpx;
+  font-size: 40rpx;
+  color: #fff;
+  font-weight: bold;
+}
+
+.wr {
+  font-size: 30rpx;
+  color: #999;
+  padding-bottom: 50rpx;
+  border-bottom: 1px solid #999;
+}
+
+.ce-img {
+  width: 350rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ce-img image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 10rpx;
+  border-radius: 50rpx;
+}
+
+.person {
+  font-size: 30rpx;
+  color: #999;
+}
+
+.logo {
+  width: 120rpx;
+  height: 80rpx;
+  margin: 0 auto;
+}
+
+.logo image {
+  width: 120rpx;
+  height: 80rpx;
+}
+
+.public {
+  margin-top: 30rpx;
+}
+
+.right {
+  height: 100rpx;
+   background: #21272e;
+   padding-bottom: 80rpx;
+}
+.rr {
+  width: 300rpx;
+  height: 100rpx;
+  background: #15191d;
+  float: right;
+  border-top-left-radius: 50rpx;
+  border-bottom-left-radius: 50rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.right image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100rpx;
+}
+
+.name text {
+  display: block;
+  margin-left: 20rpx;
+}
+
+.a {
+  color: #fff;
+  font-size: 35rpx;
+  margin-top: 10rpx;
+}
+
+.b {
+  color: #999;
+  font-size: 28rpx;
+}

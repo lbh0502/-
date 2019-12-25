@@ -1,0 +1,60 @@
+/* pages/hotserch/hotserch.wxss */
+
+.block {
+  background: #21212e;
+}
+
+.hotserch {
+  margin: 0 20rpx 20rpx;
+}
+
+.serch input {
+  width: 550rpx;
+  height: 120rpx;
+  background: #27353d;
+  border-radius: 100rpx;
+  padding-left: 90rpx;
+  color: #9da3b4;
+  font-size: 40rpx;
+  position: absolute;
+}
+
+.serch image {
+  width: 100rpx;
+  height: 100rpx;
+  position: relative;
+  margin-top: 10rpx;
+}
+
+.cancel {
+  color: #fff;
+  font-size: 30rpx;
+  float: right;
+  margin-top: 40rpx;
+}
+
+.hot-serch {
+  margin-top: 20rpx;
+  color: #fff;
+}
+
+.hh {
+  line-height: 100rpx;
+}
+.public{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ho-im{
+
+}
+.v1{
+  width: 200rpx;
+  height: 350rpx;
+  background: goldenrod;
+}
+.ho-im image{
+  width: 200rpx;
+  height: 300rpx;
+}

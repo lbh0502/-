@@ -1,12 +1,32 @@
 {
   "pages": [
-    "pages/kh/kh",
-    "pages/index/index",
+    "pages/hotserch/hotserch",
+    "pages/probe1/probe1",
+    "pages/probe/probe",
     "pages/logs/logs",
+    "pages/index/index",
+    "pages/sciencefiction/sciencefiction",
+    "pages/template/template"
   ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#21212e",
+    "navigationBarBackgroundColor": "#21272e",
     "navigationBarTextStyle": "white"
   },
   "style": "v2",

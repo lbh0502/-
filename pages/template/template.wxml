@@ -1,0 +1,7 @@
+<!--pages/template/template.wxml-->
+<template name="header">
+  <view class="ewm">
+    <view class="ewm-block">加入VIP,全店免费</view>
+    <image src="../../img/ewm.png"></image>
+  </view>
+</template>
